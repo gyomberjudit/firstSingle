@@ -10,7 +10,7 @@ public class Main {
         char[] charArray = word.toCharArray();
 
         for (int i=0; i<charArray.length; i++) {
-            boolean found = false;                        //feltesszük, hogy nincs ilyen karakter
+            boolean found = false;                       
             for (int j=i+1; j< charArray.length; j++) {
                if (charArray[i] != '\0' && charArray[i] == charArray[j]) {
                    found = true;
